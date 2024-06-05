@@ -8,7 +8,7 @@ document.getElementById('entradaTexto').addEventListener('input', function() {
     document.getElementById('textoAlterado').innerText = texto;
 });
 
-document.getElementById('meuLink').addEventListener('click', function(event) {
+document.getElementById('https://music.youtube.com/playlist?list=PLQ3GUNZoa6PLKH-eXD6y2ibfTuX2K9SqD').addEventListener('click', function(event) {
     event.preventDefault(); // Previne a navegação padrão
     document.getElementById('linkMensagem').innerText = "Você clicou no link!";
 });
